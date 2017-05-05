@@ -21,6 +21,11 @@ APPLICATION_NAME = 'Google Calendar API'
 EVENT_PATH = os.getcwd() + "/plugins_installed/jarvis-calendar/python/event.txt"
 CHECK_PATH = os.getcwd() + "/plugins_installed/jarvis-calendar/python/check.txt"
 
+#CALENDAR_ID
+#  "primary"                       For your first calendar (default)
+#  "###@group.calendar.google.com" The ID of one of your calendars
+CALENDAR_ID = "primary"
+
 def get_jetLag() :
     today = date.today()
     startSummerTime = [date(2017, 3, 25), date(2018, 3, 24), date(2019, 3, 30), date(2020, 3, 28),

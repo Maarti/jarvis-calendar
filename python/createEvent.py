@@ -125,7 +125,7 @@ def createEvent():
         },
     }
 
-    event = service.events().insert(calendarId='primary', body=event).execute()
+    event = service.events().insert(calendarId=CALENDAR_ID, body=event).execute()
             
 
 createEvent()
