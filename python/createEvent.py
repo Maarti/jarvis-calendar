@@ -113,9 +113,9 @@ def createEvent():
             'dateTime' : endDateTime,
             'timeZone': 'France/(GMT+01:00) Paris',
         },
-        'recurrence' : [
-            'RRULE:FREQ=DAILY;COUNT=1'
-        ],
+       # 'recurrence' : [
+       #     'RRULE:FREQ=DAILY;COUNT=1'
+       # ],
         'reminders' : {
             'useDefault' : False,
             'overrides' : [
