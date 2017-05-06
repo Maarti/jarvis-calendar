@@ -1,8 +1,1 @@
-Confirmez vous l'ajout de l'événement. Titre : mon évènement
-, lieu : dans ton cul
-, description : calendrier brianna
-, avec comme date de début : demain
-, à 16h
-, avec comme date de fin : demain
-, à 20h
-.
+Check
